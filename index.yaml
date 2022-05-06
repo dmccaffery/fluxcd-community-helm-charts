@@ -6,16 +6,16 @@ entries:
         - "[Added]: Allow custom labels and annotations for all services"
     apiVersion: v2
     appVersion: 0.29.3
-    created: "2022-05-06T11:31:04.206378654Z"
+    created: "2022-05-06T11:49:24.435202411Z"
     description: A Helm chart for flux2
-    digest: 7d5776f6347d91ec910fc6ae7f354da5c006528ba28b11ff4726b6eedb476a66
+    digest: aae2509830f45d3daa7a3491ac1f72b22ffd9a497fcb4ddfce57451630ec4324
     name: flux2
     sources:
     - https://github.com/fluxcd-community/helm-charts
     type: application
     urls:
-    - https://github.com/dmccaffery/fluxcd-community-helm-charts/releases/download/flux2-0.18.1/flux2-0.18.1.tgz
-    version: 0.18.1
+    - https://github.com/dmccaffery/fluxcd-community-helm-charts/releases/download/flux2-0.18.2/flux2-0.18.2.tgz
+    version: 0.18.2
   flux2-sync:
   - annotations:
       artifacthub.io/changes: |
@@ -27,9 +27,9 @@ entries:
             - name: GitHub PR
               url: https://github.com/fluxcd-community/helm-charts/pull/90
     apiVersion: v2
-    created: "2022-05-06T11:31:04.342541122Z"
+    created: "2022-05-06T11:49:24.634982788Z"
     description: A Helm chart for flux2 GitRepository to sync with
-    digest: 10186a8ba90077942dd9f1d3a35659625b93e7ca088c2af646d38c192a84d55a
+    digest: 5e136223d36fe5a3ee393623333da65f83ee063710b8d6ca7e0408dc782325ae
     name: flux2-sync
     sources:
     - https://github.com/fluxcd-community/helm-charts
@@ -37,4 +37,4 @@ entries:
     urls:
     - https://github.com/dmccaffery/fluxcd-community-helm-charts/releases/download/flux2-sync-0.3.7/flux2-sync-0.3.7.tgz
     version: 0.3.7
-generated: "2022-05-06T11:31:04.342546822Z"
+generated: "2022-05-06T11:49:24.634988488Z"
